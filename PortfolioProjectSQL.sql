@@ -84,7 +84,7 @@ select *, (RollingPeopleVaccinated / Population)*100
  from PopvsVac
 
 
--- TEMP TABLE
+-- TEMPORARY TABLE
 drop table if exists #PercentPopulationVaccinated
 create temporary table #PercentPopulationVaccinated
 ( Continent nvarchar (255),
